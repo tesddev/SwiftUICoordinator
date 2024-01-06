@@ -26,7 +26,7 @@ struct AppleView: View {
         }
         .navigationTitle("🍎")
         .onAppear{
-            print("see amount \($amount)")
+            print("see amount \($amount.wrappedValue)")
         }
     }
 }
