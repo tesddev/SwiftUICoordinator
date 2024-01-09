@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6317301B2B4D8CCB009E9295 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6317301A2B4D8CCB009E9295 /* DetailView.swift */; };
 		6398AF412B460D490028BC26 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6398AF402B460D490028BC26 /* Coordinator.swift */; };
 		6398AF432B4615EF0028BC26 /* CoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6398AF422B4615EF0028BC26 /* CoordinatorView.swift */; };
 		C95A2180298676D700FAEFBF /* SwiftUICoordinatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A217F298676D700FAEFBF /* SwiftUICoordinatorApp.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6317301A2B4D8CCB009E9295 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		6398AF402B460D490028BC26 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		6398AF422B4615EF0028BC26 /* CoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorView.swift; sourceTree = "<group>"; };
 		C95A217C298676D700FAEFBF /* SwiftUICoordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICoordinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +75,7 @@
 				C95A2185298676D800FAEFBF /* Preview Content */,
 				6398AF402B460D490028BC26 /* Coordinator.swift */,
 				6398AF422B4615EF0028BC26 /* CoordinatorView.swift */,
+				6317301A2B4D8CCB009E9295 /* DetailView.swift */,
 			);
 			path = SwiftUICoordinator;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C95A218E2986771700FAEFBF /* AppleView.swift in Sources */,
+				6317301B2B4D8CCB009E9295 /* DetailView.swift in Sources */,
 				C95A2180298676D700FAEFBF /* SwiftUICoordinatorApp.swift in Sources */,
 				C95A21922986773500FAEFBF /* CarrotView.swift in Sources */,
 				C95A21942986774E00FAEFBF /* LemonView.swift in Sources */,
