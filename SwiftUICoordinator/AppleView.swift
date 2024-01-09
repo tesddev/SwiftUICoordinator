@@ -23,6 +23,10 @@ struct AppleView: View {
             Button("Present 🫒") {
                 coordinator.present(fullScreenCover: .olive)
             }
+            Button("Push with pop button ☕️") {
+                let profile = Profile(name: "Alex")
+                coordinator.push(.detail(profile: profile))
+            }
         }
         .navigationTitle("🍎")
         .onAppear{
